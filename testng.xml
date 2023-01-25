@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/nurzatzarylbekova/IdeaProjects/UI_frameWork_Practice">
+        <classes>
+            <class name="intro.Demo1">
+                <methods>
+                    <include name="testDemo1"/>
+                </methods>
+            </class>
+            <class name="seleniumPractice.HomeWorkSelenium1">
+                <methods>
+                    <include name="CheckForm"/>
+                </methods>
+            </class>
+            <class name="seleniumPractice.DemoQATest">
+                <methods>
+                    <include name="textBoxTest"/>
+                </methods>
+            </class>
+            <class name="seleniumPractice.UserRegistrationTest">
+                <methods>
+                    <include name="checkName"/>
+                    <include name="checkEmail"/>
+                    <include name="checkAddress"/>
+                    <include name="checkPerAddress"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
