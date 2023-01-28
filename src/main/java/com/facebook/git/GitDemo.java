@@ -1,6 +1,6 @@
-package org.example;
+package com.facebook.git;
 
-public class Main {
+public class GitDemo {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
